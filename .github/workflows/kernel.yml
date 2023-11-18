@@ -298,6 +298,8 @@ jobs:
         env:
           ARGS: ${{ steps.generate-args.outputs.ARGS }}
         run: |
+          sudo apt install python2
+          sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 1
           echo "🤔 PATH Variable: $PATH"
           export KBUILD_BUILD_HOST=Github-Action
           export KBUILD_BUILD_USER=$(echo ${{ github.actor }} | tr A-Z a-z)

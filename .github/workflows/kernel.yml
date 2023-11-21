@@ -128,6 +128,8 @@ jobs:
 
       - name: 🌟 Clone kernel source => (${{ env.KERNEL_REPO }})
         run: |
+          git config --global user.name "Chengrose"
+          git config --global user.email 3485605154@qq.com
           git clone --recursive --depth=1 -j $(nproc) --branch ${{ env.KERNEL_BRANCH }} ${{ env.KERNEL_REPO }} ${{ env.KERNEL_NAME }}
           # tree ${{ env.KERNEL_NAME }}
 

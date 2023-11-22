@@ -41,7 +41,6 @@
         "CLANG_TRIPLE": "aarch64-linux-gnu-",
         "CROSS_COMPILE": "aarch64-linux-androidkernel-",
         "CROSS_COMPILE_ARM32": "arm-linux-androidkernel-",
-        "LD": "ld.lld",
         "AR": "llvm-ar",
         "NM": "llvm-nm",
         "OBJCOPY": "llvm-objcopy",

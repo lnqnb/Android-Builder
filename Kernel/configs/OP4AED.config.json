@@ -17,16 +17,16 @@
         ]
       },
       {
-        "repo": "https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9",
-        "branch": "lineage-19.0",
+        "repo": "https://github.com/Chengrose/arm64_for_OP4AED",
+        "branch": "master",
         "name": "aarch64",
         "binaryEnv": [
           "bin"
         ]
       },
       {
-        "repo": "https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9",
-        "branch": "lineage-19.0",
+        "repo": "https://github.com/Chengrose/arm_for_OP4AED",
+        "branch": "master",
         "name": "arm",
         "binaryEnv": [
           "bin"
@@ -47,6 +47,8 @@
         "OBJCOPY": "llvm-objcopy",
         "OBJDUMP": "llvm-objdump",
         "STRIP": "llvm-strip",
+        "READELF": "llvm-readelf",
+        "OBJSIZE": "llvm-size",
         "LDGOLD": "aarch64-linux-gnu-ld.gold",
         "LLVM_AR": "llvm-ar",
         "LLVM_DIS": "llvm-dis",

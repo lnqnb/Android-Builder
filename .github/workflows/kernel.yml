@@ -264,6 +264,7 @@ jobs:
             echo $i >> ${{ env.DEFCONFIG }}
           done
 
+          cat arch/${{ env.ARCH }}/configs/${{ env.KERNEL_DEFCONFIG_PATH }}
           # Apply patch
           if [ -f kernel/cgroup.c ]; then
             row=$(sed -n -e '/^static int cgroup_add_file/=' kernel/cgroup.c)

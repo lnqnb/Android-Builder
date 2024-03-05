@@ -262,7 +262,7 @@ jobs:
           # Add configuration
           for config in $(cat ${{ env.ADD_DEFCONFIG }})
           do
-            echo $config >> ${{ env.DEFCONFIG }}
+            echo $i >> ${{ env.DEFCONFIG }}
           done
 
           cat arch/${{ env.ARCH }}/configs/${{ env.KERNEL_DEFCONFIG_PATH }}

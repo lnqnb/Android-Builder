@@ -3,7 +3,7 @@
       "kernelSource": {
         "name": "OPPOA8",
         "repo": "https://github.com/lnqnb/android_kernel_oppo_OP4AED",
-        "branch": "kernelsu",
+        "branch": "New-feature",
         "device": "OP4AED",
         "defconfig": "oppo6765_19181_defconfig"
       },
